@@ -1,9 +1,10 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Rankings from './components/Rankings';
-import FindPlayer from './components/FindPlayer';
+import MyProfile from './components/Profile';
 import UpdatePoints from './components/UpdatePoints';
 
 import './App.css';
@@ -17,7 +18,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='rankings' element={<Rankings/>} />
-          <Route path='findplayer' element={<FindPlayer/>} />
+          <Route path='profile' element={<MyProfile/>} />
           <Route path='updatepoints' element={<UpdatePoints/>} />
         </Routes>
       </Router>

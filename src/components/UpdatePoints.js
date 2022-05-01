@@ -1,11 +1,11 @@
-
+import TextField from '@mui/material/TextField';
 
 
 function UpdatePoints() {
     
     return(
         <div>
-            Update Points Here
+            <TextField id="outlined-basic" label="Outlined" variant="outlined" />
         </div>
     )
 }

@@ -11,11 +11,11 @@ function NavBar() {
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="Players" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/findplayer">Find a Player</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="/rankings">View Rankings</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/updatepoints">Update Points</Nav.Link>
+              <Nav.Link href="/profile">Profile</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,4 +1,5 @@
 import { Card, Button } from 'react-bootstrap';
+import './DisplayCard.css'
 
 function DisplayCard(props) {
 
@@ -6,7 +7,10 @@ function DisplayCard(props) {
     
     return(
         <div>
-            <Card style={{ width: '25rem' }}>
+            <Card 
+            className='DisplayCard'
+            style={{ width: '25rem' }}
+            >
                 {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                 <Card.Body>
                     <Card.Title>{props.firstName} {props.lastName}</Card.Title>
@@ -22,7 +26,7 @@ function DisplayCard(props) {
                         Nationality: {props.nationality} 
 
                     </Card.Text>
-                    <Button variant="primary">View Profile</Button>
+                    <Button className='displaycard-button'>View Profile</Button>
                 </Card.Body>
             </Card>
         </div>
