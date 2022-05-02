@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { CardGroup } from 'react-bootstrap';
-import DisplayCard from "./DisplayCard/DisplayCard";
+import DisplayCard from "../DisplayCard/DisplayCard";
 
 
 function Rankings() {
